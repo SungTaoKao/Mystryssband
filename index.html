@@ -42,6 +42,9 @@
               <a class="nav-link js-scroll-trigger" href="#projects">Shows</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#members">Members</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
             </li>
           </ul>
@@ -54,7 +57,7 @@
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <img src="img/logo/Mystryss-inverted.png" width="200vw"/>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5">Check out Vancouver's latest and greatest original hard rock band! Coming to a venue near you! Stay tuned...</h2>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5" id="main"></h2>
           <a href="#about" class="btn btn-primary js-scroll-trigger">Check us out!</a>
         </div>
       </div>
@@ -65,8 +68,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">Paul Can't write to save his life</h2>
-            <p class="text-white-50">Oh god. please send help.</p>
+            <h2 class="text-white mb-4" id="blurbTitle"></h2>
+            <p class="text-white-50" id="blurb"></p>
           </div>
         </div>
       </div>
@@ -85,7 +88,7 @@
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <h4>Railway Club Open Mic</h4>
-              <p class="text-black-50 mb-0">Mystryss is a band.</p>
+              <p class="text-black-50 mb-0" id="about1"></p>
             </div>
           </div>
         </div>
@@ -93,14 +96,14 @@
         <!-- Project One Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/best_vancouver.png" alt="">
+            <img class="img-fluid" src="img/full_2.JPG" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
                   <h4 class="text-white">Best in Vancouver</h4>
-                  <p class="mb-0 text-white-50">I am a subtitle!</p>
+                  <p class="mb-0 text-white-50" id="about2"></p>
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
               </div>
@@ -118,8 +121,25 @@
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-right">
                   <h4 class="text-white">First Show</h4>
-                  <p class="mb-0 text-white-50">I am a subtitle!</p>
+                  <p class="mb-0 text-white-50" id="about3"></p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0"> 
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/best_vancouver.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Best in Vancouver</h4>
+                  <p class="mb-0 text-white-50" id="about4"></p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
               </div>
             </div>
@@ -127,6 +147,19 @@
         </div>
 
       </div>
+    </section>
+      
+    <!-- Members section -->
+    <section id="members" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4" id="blurbTitle"></h2>
+            <p class="text-white-50" id="blurb"></p>
+          </div>
+        </div>
+      </div>
+    <img src="img/about_section.jpg" class="img-fluid" alt="">
     </section>
 
     <!-- Signup Section -->
@@ -208,7 +241,7 @@
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
       <div class="container">
-        Copyright &copy; Your Website 2018
+        In loving memory of Bob Ross
       </div>
     </footer>
 
@@ -221,6 +254,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+    
+    <!-- Defined string constants -->
+    <script src="js/constants.js"></script>
 
   </body>
 
