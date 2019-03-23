@@ -8,8 +8,14 @@ var about4 = 'With their collective firmly established the four have endeavored 
 
 var main = 'Check out Vancouver\'s latest and greatest original hard rock band! Coming to a venue near you! Stay tuned...'
 
+var blurb = 'placeholder text'
+
+var blurbTitle = 'placeholder text'
+
 document.getElementById("about1").innerHTML = about1;
 document.getElementById("about2").innerHTML = about2;
 document.getElementById("about3").innerHTML = about3;
 document.getElementById("about4").innerHTML = about4;
 document.getElementById("main").innerHTML = main;
+document.getElementById("blurb").innerHTML = blurb;
+document.getElementById("blurbTitle").innerHTML = blurbTitle;
