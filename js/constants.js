@@ -12,6 +12,8 @@ var blurb = 'placeholder text'
 
 var blurbTitle = 'placeholder text'
 
+var demoTitle = 'placeholder text'
+
 document.getElementById("about1").innerHTML = about1;
 document.getElementById("about2").innerHTML = about2;
 document.getElementById("about3").innerHTML = about3;
@@ -19,3 +21,4 @@ document.getElementById("about4").innerHTML = about4;
 document.getElementById("main").innerHTML = main;
 document.getElementById("blurb").innerHTML = blurb;
 document.getElementById("blurbTitle").innerHTML = blurbTitle;
+document.getElementById("demoTitle").innerHTML = demoTitle;
