@@ -9,7 +9,7 @@ var insert = `<section class="contact-section bg-black">` +
             `<i class="fas fa-map-marked-alt text-primary mb-2"></i>` +
             `<h4 class="text-uppercase m-0">Address</h4>` +
             `<hr class="my-4">` +
-            `<div class="small text-black-50">123 Sesame St, NY, New York</div>` +
+            `<div class="small text-black-50">#8 15432 16 a avenue V4A 1T3</div>` +
           `</div>` +
         `</div>` +
       `</div>` +
@@ -33,7 +33,7 @@ var insert = `<section class="contact-section bg-black">` +
             `<i class="fas fa-mobile-alt text-primary mb-2"></i>` +
             `<h4 class="text-uppercase m-0">Phone</h4>` +
             `<hr class="my-4">` +
-            `<div class="small text-black-50">+1 (555) 123-4567</div>` +
+            `<div class="small text-black-50">+1 (604) 396 1904</div>` +
           `</div>` +
         `</div>` +
       `</div>` +
