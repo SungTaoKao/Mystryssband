@@ -9,7 +9,7 @@ var insert = `<section class="contact-section bg-black">` +
             `<i class="fas fa-map-marked-alt text-primary mb-2"></i>` +
             `<h4 class="text-uppercase m-0">Address</h4>` +
             `<hr class="my-4">` +
-            `<div class="small text-black-50">#8 15432 16 a avenue V4A 1T3</div>` +
+            `<div class="small text-black-50">#8 15432 16a Ave Surrey, BC V4A 1T2</div>` +
           `</div>` +
         `</div>` +
       `</div>` +
